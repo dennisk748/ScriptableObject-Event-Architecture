@@ -1,0 +1,51 @@
+# =============== #
+# Unity generated #
+# =============== #
+target/
+Temp/
+Obj/
+UnityGenerated/
+Library/
+Assets/AssetStoreTools*
+Assets/Extensions/ThirtySec/Save/Files*
+Logs/
+EditorUserSettings.asset
+AndroidLogcatSettings.asset
+
+# ===================================== #
+# Visual Studio / MonoDevelop generated #
+# ===================================== #
+ExportedObj/
+*.svd
+*.userprefs
+*.csproj
+*.pidb
+*.suo
+*.sln
+*.user
+*.unityproj
+*.booproj
+.vs
+.vsconfig
+
+# ============ #
+# OS generated #
+# ============ #
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+Thumbs.db.meta
+
+# Applications
+*.exe
+*.apk
+Mama Antigis/Assets/Extensions/ThirtySec/Save/Files/(SerializedItems).txt
+Mama Antigis/Assets/Extensions/ThirtySec/Save/Files/(SerializedInvestments).txt
+Mama Antigis/Assets/Extensions/ThirtySec/Save/Files/(SerializedPendingPurchases).txt
+Mama Antigis/Assets/Extensions/ThirtySec/Save/Files/(SerializedInvestments).txt.meta
+Mama Antigis/Assets/Extensions/ThirtySec/Save/Files/(SerializedGrids).txt
+Mama Antigis/Assets/Extensions/ThirtySec/Save/Files/(SerializedGrids).txt.meta
+Mama Antigis/Assets/Extensions/ThirtySec/Save/Files/(ThirtySec.PlayerPrefs).txt
+Mama Antigis/Assets/Extensions/ThirtySec/Save/Files/(ThirtySec.PlayerPrefs).txt.meta
