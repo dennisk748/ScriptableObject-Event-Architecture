@@ -7,5 +7,3 @@
 ## Go to tools -> custom directives
 ## type "ENABLE_COMPACTUI" in the empty text box
 ## Click on Synchronize and wait for unity to compile
-
-Hi
