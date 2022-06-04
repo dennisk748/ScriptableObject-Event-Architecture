@@ -454,18 +454,18 @@ public class UnityEventCompactDrawer : PropertyDrawer
                     var popup = BuildPopupList.Invoke(null, new object[] { listenerTarget.objectReferenceValue, m_DummyEvent, pListener }) as GenericMenu;
                     popup.DropDown(functionRect);
                 }
-                if (GUI.Button(subRects[4], new GUIContent(SearchIcon)))
-                {
-                    //Type t = (attribute as SearchObjectAttribute).searchObjectType;
-                    Type t = typeof(ScriptableObject);
-                    ObjectSearchProvider OSP = ScriptableObject.CreateInstance<ObjectSearchProvider>();
-                    OSP.Init(t, listenerTarget);
-                    SearchWindow.Open(new SearchWindowContext(GUIUtility.GUIToScreenPoint(Event.current.mousePosition)), OSP);
-                }
+
             }
             EditorGUI.EndProperty();
         }
-
+        if (GUI.Button(subRects[4], new GUIContent(SearchIcon)))
+        {
+            //Type t = (attribute as SearchObjectAttribute).searchObjectType;
+            Type t = typeof(ScriptableObject);
+            ObjectSearchProvider OSP = ScriptableObject.CreateInstance<ObjectSearchProvider>();
+            OSP.Init(t, listenerTarget);
+            SearchWindow.Open(new SearchWindowContext(GUIUtility.GUIToScreenPoint(Event.current.mousePosition)), OSP);
+        }
         EditorGUI.EndDisabledGroup();
         GUI.backgroundColor = c;
     }
